@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'; 
 
-function Match() {
+function Match(){
   return (
     <article className="Match">
       <h1>Joe <span>vs</span> Bob</h1>
@@ -9,4 +9,5 @@ function Match() {
     </article>
   );
 }
+
 export default Match;
