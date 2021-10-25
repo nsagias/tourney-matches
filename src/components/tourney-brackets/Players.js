@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Player(){
+function Player(props){
   return (
     <article className="Player">
       <h1>John <span>Secret</span> Doe</h1>
