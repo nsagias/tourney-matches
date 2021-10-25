@@ -1,4 +1,5 @@
 import React from 'react';
+import playerdata from '../../data/playerData';
 import Player from './Players';
 
 function PlayerList () {
