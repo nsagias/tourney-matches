@@ -4,7 +4,7 @@ import matchdata from "../../data/matchData";
 
 import Player from './Players';
 
-function PlayerList () {
+function PlayerList(props) {
   return (
     <section className="PlayerList">
       <h1>Current participating players</h1>
