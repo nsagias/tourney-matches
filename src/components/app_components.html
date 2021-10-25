@@ -20,3 +20,34 @@
   {/* To be shown when there is a winner */}<h2>Joe is the winner by 1!</h2>
   {/* To be shown when there is no winner */}<h2>No winners yet!</h2>
 </article>
+
+<!-- // our object containing a group of objects
+const playerData = { 
+  "Disguised Lizard": { gamerTag: "Disguised Lizard", firstName: "Daria ", lastName: "Stark"},
+  // more players below
+  ...
+}
+
+const playerDataArray = Object.values(playerData);
+
+[ { gamerTag: "Disguised Lizard", firstName: "Daria ", lastName: "Stark"},
+  // more players below
+] -->
+
+<!-- Extracting Wins
+For individual players, we need to know four things:
+
+first name
+last name
+gamer tag
+number of wins
+The first three pieces of data are easy to get, since they are properties of a player object. However, we don't know the number of wins for a player by 
+looking at a player object, since the number of wins is based on who won the matches.
+
+However, we know that the gamerTag of a player object is the same value used 
+to record the winner in each match object.
+
+Knowing this, we could iterate over the array of matches for each player a
+nd count how many times their gamerTag shows up in the winner property of a match. 
+Once we calculate this, we can add it as a property on the player object and then 
+return a new array with updated players. -->
